@@ -13,37 +13,78 @@
     GENERAL
 */
 
+.padding{
+    padding: 20px 0;
+}
+
 html{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.start{
+    justify-content: flex-start;
+}
 
-/*
-    HEADER
-*/
+.center{
+    justify-content: center;
+}
+
+
+.end{
+    justify-content: flex-end;
+}
+
+.around{
+    justify-content: space-around;
+}
+
+.between{
+    justify-content: space-between;
+}
+
+.top{
+    align-items: flex-start;
+}
+
+.middle{
+    align-items: center;
+}
+
+
+.bottom{
+    align-items: flex-end;
+}
 
 /*
     MAIN
 */
 
-
-/*
-    MEDIA QUERY
-*/
-
-/* Caso base: mobile piccolo */
-@media screen and (min-width: 480px){
-}
-/* Caso: mobile grande*/
-@media screen and (min-width: 576px){
-}
-/* Caso: tablet*/
-@media screen and (min-width: 768px){
-}
-/* Caso: desktop*/
-@media screen and (min-width: 992px){
+section{
+    margin-bottom: 2rem;
 }
 
+.box{
+    text-align: center;
+    color: white;
+    height: 100%;
+}
+
+.blue{
+    background-color: #006cfa;
+    border: 1px solid white;
+    padding: 20px 10px;
+}
+
+.green{
+    background-color: #00e165;
+    border: 1px solid #006cfa;
+    font-size: 0.8rem;
+    padding: 10px 0;
+}
+
+.big{
+    padding: 60px 10px;
+}
 
 
 /*
