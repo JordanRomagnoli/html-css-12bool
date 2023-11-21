@@ -1,0 +1,63 @@
+
+/*
+    RESET 
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+    GENERAL
+*/
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    height: 100vh;
+    
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.j-center{
+    display: flex;
+    justify-content: center;
+}
+
+.grid{
+    min-width: 700px;
+    min-height: 700px;
+}
+
+.box{
+    height: 58.16px;
+}
+
+.red{
+    background-color: red;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.black{
+    background-color: black;
+}
+
+/*
+    DEBUG
+*/
